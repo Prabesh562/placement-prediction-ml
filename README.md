@@ -20,33 +20,39 @@ This was my first hands-on ML project, and I followed a structured workflow comm
 These are the steps I practiced and implemented:
 
 0. Preprocessing + EDA + Feature Selection
+
 Loaded the dataset using pandas
 Checked missing values, data types, and general structure
 Visualized patterns between CGPA, IQ, and placement
 Identified the final input & output columns
 
-1. Extract Input and Output Columns
+2. Extract Input and Output Columns
+
 X = CGPA + IQ
 y = Placement
 
-2. Scale the Feature Values
+4. Scale the Feature Values
+
 Used StandardScaler from Scikit-Learn to normalize CGPA & IQ.
 
-3. Train-Test Split
+6. Train-Test Split
+
 Used train_test_split to divide dataset into training & testing sets.
 
-4. Train the Model
+7. Train the Model
+
 Trained a Logistic Regression classifier:
 from sklearn.linear_model import LogisticRegression
 
-5. Evaluate the Model
+8. Evaluate the Model
+
 Calculated accuracy using accuracy_score
 Observed model performance on unseen data
 
-6. Deploy / Save the Model
+9. Deploy / Save the Model
+
 Saved the trained model using pickle:
 pickle.dump(model, open('model.pkl', 'wb'))
-
 
 (Still learning about model deployment, but saving the model was the first step.)
 
