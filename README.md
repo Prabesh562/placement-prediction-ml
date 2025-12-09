@@ -3,7 +3,9 @@ Student Placement Prediction using Logistic Regression
 A beginner-friendly Machine Learning project where I built a Logistic Regression model to predict whether a student gets placed based on their CGPA and IQ.
 This project helped me understand the complete ML pipeline from EDA to deployment — even though it's simple, it marks an important milestone in my ML learning journey.
 
+
 🚀 Project Overview
+
 The goal of this project is to build a binary classification model that predicts:
 Will the student get placed? (1 = Yes, 0 = No)
 based on two input features:
@@ -14,6 +16,7 @@ This was my first hands-on ML project, and I followed a structured workflow comm
 
 
 🧠 Key Concepts I Learned
+
 These are the steps I practiced and implemented:
 
 0. Preprocessing + EDA + Feature Selection
@@ -49,6 +52,7 @@ pickle.dump(model, open('model.pkl', 'wb'))
 
 
 📊 Dataset Sample
+
 The dataset contains 3 columns:
 
 cgpa	iq	placement
