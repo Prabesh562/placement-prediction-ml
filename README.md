@@ -74,15 +74,20 @@ Dataset source: CampusX GitHub.
 📘 Files in This Repository
 
 placement_prediction.ipynb → Full Google Colab notebook
+
 model.pkl → Saved Logistic Regression model
+
 placement.csv → Training toy dataset
+
 README.md → Project documentation (this file)
 
 
 🙏 Credits
 
 This project was completed as part of my Machine Learning learning journey.
+
 I followed a helpful beginner tutorial by CampusX and used the dataset from their GitHub repository.
 
 Tutorial & dataset source: CampusX YouTube channel & GitHub.
+
 Tutorial link: https://www.youtube.com/watch?v=dr7z7a_8lQw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH&index=13
